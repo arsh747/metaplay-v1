@@ -1,0 +1,129 @@
+/* ==========================================================================
+   theme.uss
+   Design tokens (USS custom properties) for Trivia Master.
+
+   Apply the ".theme-root" class to the single root VisualElement of the
+   UIDocument (GameRoot.uxml already has it). Every other stylesheet reads
+   colors exclusively through var(--token) so switching themes at runtime
+   is just toggling the ".dark-theme" class on that same root element
+   (see ThemeManager.cs) — no per-element color code anywhere else.
+
+   NOTE: Unity's USS parser does not support a custom property whose value
+   is itself another var() reference (e.g. "--a: var(--b);" fails silently
+   and can take the whole rule block down with it) - every value below is
+   a literal. It also doesn't support 8-digit hex (#RRGGBBAA) colors -
+   translucent colors use rgba(...) instead.
+   ========================================================================== */
+
+.theme-root {
+    /* ---- Backgrounds ---- */
+    --color-bg: #F5F2FF;
+    --color-bg-alt: #ECE5FF;
+    --color-surface: #FFFFFF;
+    --color-surface-alt: #F6F3FF;
+
+    /* ---- Brand / actions ---- */
+    --color-primary: #5B4FE9;
+    --color-primary-hover: #6C5FFF;
+    --color-primary-pressed: #4840C0;
+    --color-primary-shadow: #372E9E;
+    --color-on-primary: #FFFFFF;
+
+    /* ---- Text ---- */
+    --color-text-primary: #211C42;
+    --color-text-secondary: #756FA0;
+    --color-text-on-dark-surface: #FFFFFF;
+
+    /* ---- Status ---- */
+    --color-danger: #FF5C7A;
+    --color-danger-strong: #E9435F;
+    --color-danger-shadow: #B22F49;
+    --color-success: #22C55E;
+    --color-success-strong: #17A24C;
+    --color-success-shadow: #14813C;
+
+    /* ---- Category accents (Category Select + Answer feedback) ---- */
+    --cat-movies: #FF6B4A;
+    --cat-movies-shadow: #D9502F;
+    --cat-history: #F5A623;
+    --cat-history-shadow: #C97F0F;
+    --cat-sports: #22C55E;
+    --cat-sports-shadow: #178A41;
+    --cat-science: #3FA9F5;
+    --cat-science-shadow: #1D7DC4;
+    --cat-random: #B15CFF;
+    --cat-random-shadow: #8331D9;
+
+    /* ---- Structure ---- */
+    --color-border: #E4DEFA;
+    --color-border-strong: #D3C9F5;
+    --color-shadow: #C9BFEE;
+    --color-overlay: rgba(33, 28, 66, 0.72);
+
+    /* ---- Spacing scale ---- */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-xxl: 48px;
+
+    /* ---- Radii ---- */
+    --radius-sm: 12px;
+    --radius-md: 18px;
+    --radius-lg: 26px;
+    --radius-pill: 999px;
+
+    /* ---- Buttons: one consistent size + a chunky "pressed card" shape
+       (rounded rect with a thick colored bottom edge for depth) used
+       everywhere, instead of the old plain flat pill ---- */
+    --button-height: 64px;
+    --button-height-compact: 56px;
+    --button-font-size: 20px;
+    --button-radius: 20px;
+    --button-edge: 5px;
+
+    background-color: var(--color-bg);
+}
+
+.theme-root.dark-theme {
+    --color-bg: #191534;
+    --color-bg-alt: #211C42;
+    --color-surface: #251F4A;
+    --color-surface-alt: #2D2658;
+
+    --color-primary: #8B7CFF;
+    --color-primary-hover: #9C8FFF;
+    --color-primary-pressed: #6E60E0;
+    --color-primary-shadow: #4A3FB8;
+    --color-on-primary: #16112E;
+
+    --color-text-primary: #F3F1FF;
+    --color-text-secondary: #B3AAE0;
+    --color-text-on-dark-surface: #FFFFFF;
+
+    --color-danger: #FF7086;
+    --color-danger-strong: #FF5271;
+    --color-danger-shadow: #C43A57;
+    --color-success: #3DDE83;
+    --color-success-strong: #2BC46E;
+    --color-success-shadow: #1E9A56;
+
+    --cat-movies: #FF8163;
+    --cat-movies-shadow: #C4573A;
+    --cat-history: #FFBB4D;
+    --cat-history-shadow: #C98A1C;
+    --cat-sports: #3DDE83;
+    --cat-sports-shadow: #1E9A56;
+    --cat-science: #5FBBFF;
+    --cat-science-shadow: #2A82C4;
+    --cat-random: #C583FF;
+    --cat-random-shadow: #8B4FCC;
+
+    --color-border: #362D63;
+    --color-border-strong: #443875;
+    --color-shadow: #0E0B22;
+    --color-overlay: rgba(10, 8, 24, 0.82);
+
+    background-color: var(--color-bg);
+}

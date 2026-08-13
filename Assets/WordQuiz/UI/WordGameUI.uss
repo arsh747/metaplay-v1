@@ -1,0 +1,741 @@
+/* =====================================================================
+   WordGameUI.uss
+   Playful/colorful design tokens + component styles for the word game.
+
+   NOTES ON UNITY UI TOOLKIT LIMITATIONS (read before editing):
+   - USS has no CSS `linear-gradient()` for background-color. The ".bg-gradient"
+     class below falls back to a flat mid-tone purple. For the real gradient
+     look, either (a) assign a gradient PNG/sprite to the element's
+     background-image in the UI Builder, or (b) leave the flat color — it
+     still reads as "playful" against the white cards.
+   - USS has no `gap`. Spacing between siblings is done with margin on the
+     children (see .selectors > .selector, .menu-actions > .btn, etc).
+   - Fonts: point -unity-font-definition at your imported Font Assets
+     (TextMeshPro / Unity Font Asset) for "Baloo 2" (headings/buttons) and
+     "Nunito" (body). Placeholder paths are marked TODO below — update them
+     to match your Assets folder.
+   - No box-shadow. The "chunky pressed button" look is faked with a thicker,
+     darker bottom border instead (border-bottom-width + border-bottom-color).
+   ===================================================================== */
+
+:root {
+    --purple-dark: #1B1035;
+    --purple: #6C5CE7;
+    --purple2: #8B6CFF;
+    --pink: #FF6FA5;
+    --pink-dark: #E85590;
+    --coral: #FF6B6B;
+    --coral-dark: #E4514F;
+    --yellow: #FFD93D;
+    --yellow-dark: #E8B923;
+    --green: #58CC6B;
+    --green-dark: #3FA653;
+    --teal: #4ECDC4;
+    --teal-dark: #37AEA6;
+    --cream: #FFF8F0;
+    --charcoal: #2A2438;
+    --charcoal-2: #372F4B;
+    --grey: #8B87A0;
+    --grey-light: #D8D4E8;
+    --white: #FFFFFF;
+}
+
+/* ---------------------------------------------------------------------
+   Root / panels
+   --------------------------------------------------------------------- */
+
+.root {
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.panel {
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.bg-gradient {
+    background-color: var(--purple2); /* TODO: swap for gradient sprite for full effect */
+}
+
+.bg-dark {
+    background-color: var(--purple-dark);
+}
+
+/* Decorative background blobs (optional, purely cosmetic) */
+.blob {
+    position: absolute;
+    border-radius: 999px;
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+/* ---------------------------------------------------------------------
+   Typography
+   --------------------------------------------------------------------- */
+
+.heading {
+    /* Simplest setup: point straight at the imported .ttf (Assets/Fonts/Baloo2-Bold.ttf).
+       For crisper text at large sizes, generate an SDF Font Asset instead
+       (right-click the ttf -> Create -> Text -> Font Asset) and swap this line for:
+       -unity-font-definition: url("project://database/Assets/Fonts/Baloo2-Bold SDF.asset"); */
+    -unity-font: url("project://database/Assets/Fonts/Baloo2-Bold.ttf");
+    -unity-font-style: bold;
+    color: var(--white);
+}
+
+.body-text {
+    /* Assets/Fonts/Nunito-Bold.ttf — same simple setup, upgrade to an SDF Font Asset later if needed. */
+    -unity-font: url("project://database/Assets/Fonts/Nunito-Bold.ttf");
+}
+
+/* ---------------------------------------------------------------------
+   Buttons
+   --------------------------------------------------------------------- */
+
+.btn {
+    border-width: 0;
+    border-radius: 18px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding: 14px 12px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    transition-property: scale, translate;
+    transition-duration: 0.08s;
+}
+
+.btn:active {
+    translate: 0 3px 0;
+}
+
+.btn.primary {
+    background-color: var(--green);
+    color: var(--white);
+    border-bottom-width: 5px;
+    border-bottom-color: var(--green-dark);
+}
+
+.btn.secondary {
+    background-color: var(--white);
+    color: var(--purple);
+    font-size: 14px;
+    padding: 12px;
+    border-bottom-width: 4px;
+    border-bottom-color: var(--grey-light);
+}
+
+.menu-margin {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.btn.quit {
+    background-color: var(--white);
+    color: var(--purple);
+    font-size: 12px;
+    padding: 8px;
+    border-bottom-width: 3px;
+    border-bottom-color: var(--grey-light);
+    margin: 6px 40px 0 40px;
+}
+
+.btn.pink {
+    background-color: var(--pink);
+    color: var(--white);
+    font-size: 18px;
+    padding: 15px;
+    border-bottom-width: 5px;
+    border-bottom-color: var(--pink-dark);
+}
+
+.btn.coral {
+    background-color: var(--coral);
+    color: var(--white);
+    font-size: 15px;
+    padding: 14px;
+    border-bottom-width: 4px;
+    border-bottom-color: var(--coral-dark);
+}
+
+.btn.link {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 12px;
+    padding: 6px;
+    margin-bottom: 0;
+    border-bottom-width: 0;
+}
+
+
+
+/* Round icon-style chips (help "?") */
+.chip-round {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: var(--white);
+    -unity-font-style: bold;
+    font-size: 18px;
+    -unity-text-align: middle-center;
+    border-width: 0;
+}
+
+/* Pill-shaped back button with icon + text */
+.btn-back {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: var(--white);
+    -unity-font-style: bold;
+    font-size: 14px;
+    border-radius: 18px;
+    padding: 8px 14px;
+    border-width: 0;
+}
+
+/* Stepper (+/-) buttons for word length / guess count */
+.step-btn {
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    -unity-font-style: bold;
+    font-size: 15px;
+    color: var(--white);
+    -unity-text-align: middle-center;
+    border-width: 0;
+}
+
+.step-btn.minus {
+    background-color: var(--coral);
+    border-bottom-width: 3px;
+    border-bottom-color: var(--coral-dark);
+    margin-right: 10px;
+}
+
+.step-btn.plus {
+    background-color: var(--green);
+    border-bottom-width: 3px;
+    border-bottom-color: var(--green-dark);
+    margin-left: 10px;
+}
+
+.step-btn:disabled {
+    background-color: var(--grey-light);
+    border-bottom-color: #C3BEDA;
+}
+
+/* ---------------------------------------------------------------------
+   Cards
+   --------------------------------------------------------------------- */
+
+.card {
+    background-color: var(--white);
+    border-radius: 22px;
+    padding: 14px 16px;
+    margin: 8px 16px;
+}
+
+/* ---------------------------------------------------------------------
+   Main menu
+   --------------------------------------------------------------------- */
+
+.menu-title {
+    font-size: 34px;
+    -unity-text-align: middle-center;
+    margin-top: 26px;
+    color: var(--white);
+}
+
+.menu-logo-row {
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 14px 0;
+}
+
+.daily-card {
+    flex-direction: column;
+}
+
+.daily-top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.daily-badge {
+    background-color: var(--yellow);
+    color: var(--charcoal);
+    font-size: 11px;
+    -unity-font-style: bold;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.timer-pill {
+    background-color: var(--charcoal);
+    color: var(--white);
+    font-size: 12px;
+    -unity-font-style: bold;
+    border-radius: 12px;
+    padding: 6px 10px;
+    -unity-text-align: middle-center;
+    margin-bottom: 8px;
+}
+
+.selectors {
+    flex-direction: row;
+    margin: 14px 16px;
+}
+
+.selector {
+    flex-grow: 1;
+    background-color: rgba(255, 255, 255, 0.92);
+    border-radius: 16px;
+    padding: 8px 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.selector-label {
+    font-size: 10px;
+    color: var(--grey);
+    -unity-font-style: bold;
+}
+
+.stepper-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.selector-value {
+    font-size: 18px;
+    color: var(--purple);
+    -unity-font-style: bold;
+    min-width: 20px;
+    -unity-text-align: middle-center;
+}
+
+.menu-actions {
+    flex-direction: column;
+    margin: 8px 16px;
+}
+
+/* ---------------------------------------------------------------------
+   How to play
+   --------------------------------------------------------------------- */
+
+.htp-header {
+    padding: 20px 18px 6px 18px;
+    align-items: center;
+}
+
+.htp-subtext {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 12px;
+    -unity-font-style: bold;
+    margin-top: 4px;
+}
+
+.htp-scroll {
+    flex-grow: 1;
+}
+
+.htp-card {
+    flex-direction: column;
+}
+
+.htp-row {
+    flex-direction: row;
+    margin-bottom: 6px;
+}
+
+.htp-explain {
+    flex-direction: row;
+    align-items: center;
+    font-size: 11px;
+    color: var(--charcoal);
+    -unity-font-style: bold;
+}
+
+.badge-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    color: var(--white);
+    -unity-text-align: middle-center;
+    font-size: 11px;
+    margin-right: 8px;
+}
+
+.badge-icon.bg-green { background-color: var(--green); }
+.badge-icon.bg-yellow-dark { background-color: var(--yellow-dark); }
+.badge-icon.bg-grey { background-color: var(--grey); }
+
+/* ---------------------------------------------------------------------
+   Options
+   --------------------------------------------------------------------- */
+
+.opt-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 18px 10px 18px;
+}
+
+.opt-list {
+    padding: 6px 16px;
+}
+
+.opt-row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.opt-row-column {
+    flex-direction: column;
+}
+
+.opt-row-top {
+    flex-direction: row;
+    align-items: center;
+}
+
+.opt-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 12px;
+    color: var(--white);
+    -unity-text-align: middle-center;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.opt-icon.bg-coral { background-color: var(--coral); }
+.opt-icon.bg-teal { background-color: var(--teal); }
+.opt-icon.bg-purple { background-color: var(--purple); }
+
+.opt-text {
+    flex-grow: 1;
+}
+
+.opt-title {
+    -unity-font-style: bold;
+    font-size: 13px;
+    color: var(--charcoal);
+}
+
+.opt-desc {
+    font-size: 10px;
+    color: var(--grey);
+}
+
+.res-pill {
+    background-color: var(--cream);
+    border-radius: 12px;
+    padding: 8px 10px;
+    font-size: 11px;
+    color: var(--charcoal);
+    margin-top: 6px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Custom pill toggle switch (VisualElement, not built-in Toggle) */
+.toggle-switch {
+    width: 40px;
+    height: 22px;
+    border-radius: 11px;
+    background-color: var(--grey-light);
+}
+
+.toggle-switch.on {
+    background-color: var(--green);
+}
+
+.toggle-dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: var(--white);
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.toggle-switch.on .toggle-dot {
+    left: 20px;
+}
+
+/* ---------------------------------------------------------------------
+   Gameplay
+   --------------------------------------------------------------------- */
+
+.game-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px 8px 16px;
+}
+
+.game-title {
+    font-size: 16px;
+    color: var(--white);
+}
+
+.toast {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    translate: -50% 0;
+    background-color: var(--coral);
+    color: var(--white);
+    font-size: 12px;
+    -unity-font-style: bold;
+    padding: 8px 14px;
+    border-radius: 14px;
+}
+
+.grid-wrap {
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-row {
+    flex-direction: row;
+    margin-bottom: 6px;
+}
+
+.tile {
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    -unity-text-align: middle-center;
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: var(--white);
+    margin-right: 6px;
+}
+
+
+.tile.empty {
+    background-color: var(--charcoal-2);
+    border-width: 2px;
+    border-color: #4C4266;
+    color: var(--grey-light);
+}
+
+.tile.green {
+    background-color: var(--green);
+    border-bottom-width: 3px;
+    border-bottom-color: var(--green-dark);
+}
+
+.tile.yellow {
+    background-color: var(--yellow);
+    border-bottom-width: 3px;
+    border-bottom-color: var(--yellow-dark);
+    color: var(--charcoal);
+}
+
+.tile.active {
+    border-width: 2px;
+    border-color: var(--pink);
+}
+
+.tile.shake {
+    /* toggled briefly by controller via USS transition on translate */
+    translate: 8px 0;
+}
+
+.keyboard {
+    padding: 10px 8px 16px 8px;
+}
+
+.key-row {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.key {
+    width: 28px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--white);
+    -unity-font-style: bold;
+    color: var(--charcoal);
+    font-size: 12px;
+    -unity-text-align: middle-center;
+    border-bottom-width: 3px;
+    border-bottom-color: var(--grey-light);
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    margin-right: 5px;
+}
+
+
+.key.wide {
+    width: 42px;
+    font-size: 10px;
+}
+
+.key.green {
+    background-color: var(--green);
+    color: var(--white);
+    border-bottom-color: var(--green-dark);
+}
+
+.key.yellow {
+    background-color: var(--yellow);
+    color: var(--charcoal);
+    border-bottom-color: var(--yellow-dark);
+}
+
+.key.grey {
+    background-color: var(--grey);
+    color: var(--white);
+    border-bottom-color: #6F6C82;
+}
+
+/* ---------------------------------------------------------------------
+   Win / Lose
+   --------------------------------------------------------------------- */
+
+.end-header {
+    -unity-text-align: middle-center;
+    padding: 18px 0 4px 0;
+}
+
+.end-title {
+    font-size: 26px;
+    -unity-text-align: middle-center;
+    margin: 10px 0 4px 0;
+}
+
+.end-title.win {
+    color: var(--yellow);
+}
+
+.end-title.lose {
+    color: var(--coral);
+}
+
+.word-chip {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: var(--white);
+    font-size: 12px;
+    -unity-font-style: bold;
+    padding: 6px 14px;
+    border-radius: 12px;
+    align-self: center;
+    margin-bottom: 8px;
+}
+
+.word-chip.lose {
+    background-color: var(--coral);
+}
+
+.confetti {
+    position: absolute;
+    border-radius: 999px;
+}
+
+.confetti.c-yellow { background-color: var(--yellow); }
+.confetti.c-teal { background-color: var(--teal); }
+.confetti.c-white { background-color: var(--white); }
+
+.text-white {
+    color: var(--white);
+}
+
+.stats-row {
+    flex-direction: row;
+    margin: 10px 16px;
+}
+
+.stat-card {
+    flex-grow: 1;
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 8px 4px;
+    -unity-text-align: middle-center;
+    margin-right: 6px;
+}
+
+
+.stat-number {
+    -unity-font-style: bold;
+    font-size: 16px;
+    color: var(--purple);
+    -unity-text-align: middle-center;
+}
+
+.stat-label {
+    font-size: 8px;
+    color: var(--grey);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.dist-card {
+    flex-direction: column;
+    margin: 6px 16px;
+}
+
+.dist-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.dist-number {
+    font-size: 9px;
+    -unity-font-style: bold;
+    color: var(--grey);
+    width: 10px;
+}
+
+.dist-bar-bg {
+    flex-grow: 1;
+    height: 12px;
+    background-color: var(--grey-light);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.dist-bar-fill {
+    height: 12px;
+    background-color: var(--green);
+    border-radius: 6px;
+}
+
+.end-actions-row {
+    flex-direction: row;
+    margin: 14px 16px 4px 16px;
+}
+
+.end-actions-row .btn {
+    flex-grow: 1;
+    margin-right: 8px;
+    margin-bottom: 0;
+}
+
+.btn.outline {
+    background-color: var(--white);
+    color: var(--purple);
+    font-size: 13px;
+    padding: 12px 6px;
+    border-bottom-width: 4px;
+    border-bottom-color: var(--grey-light);
+}

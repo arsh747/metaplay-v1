@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MetaPlayUII/Hub/Scenes/Boot.unity
+    guid: 4705fe743f527b842bd683393cbdab6f
+  - enabled: 1
+    path: Assets/MetaPlayUII/Hub/Scenes/Hub.unity
+    guid: 640c1d67daec53b47be02598ce5c7d6c
+  - enabled: 1
+    path: Assets/chess/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Trivia Master/Scenes/Trivia.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/WordQuiz/Scenes/WordScene.unity
+    guid: 9c833c48645c8ad42a77f636693fe52f
+  - enabled: 1
+    path: Assets/Pesticide/_]Scenes/Main Menu.unity
+    guid: 4ca45016c989f28428ae68b86fd120be
+  - enabled: 1
+    path: Assets/Pesticide/_]Scenes/Level 1.unity
+    guid: 72a8a7febbbe17647a2ca3fa3bbd971d
+  - enabled: 1
+    path: Assets/Pesticide/_]Scenes/Level 2.unity
+    guid: 96d5659c4e5b466498eb2b929c072f85
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

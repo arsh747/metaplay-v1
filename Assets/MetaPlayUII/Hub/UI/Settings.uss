@@ -1,0 +1,115 @@
+.settings-topbar {
+    flex-direction: row;
+    align-items: center;
+    height: 88px;
+    padding-left: 16px;
+}
+
+.back-button {
+    width: 52px;
+    height: 52px;
+    background-color: var(--color-surface);
+    border-radius: 16px;
+    border-width: 0;
+    color: var(--color-text-primary);
+    font-size: 18px;
+    -unity-text-align: middle-center;
+}
+
+.settings-title {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: var(--color-text-primary);
+    margin-left: 6px;
+}
+
+.settings-scroll {
+    flex-grow: 1;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.section-label {
+    font-size: 15px;
+    color: var(--color-text-secondary);
+    margin-top: 28px;
+    margin-bottom: 12px;
+    letter-spacing: 1.5px;
+}
+
+.settings-row {
+    flex-direction: row;
+    align-items: center;
+    height: 66px;
+}
+
+.row-label {
+    font-size: 19px;
+    color: var(--color-text-primary);
+    flex-grow: 1;
+}
+
+.row-value {
+    font-size: 17px;
+    color: var(--color-text-secondary);
+    margin-right: 8px;
+}
+
+.row-chevron {
+    font-size: 20px;
+    color: var(--color-text-secondary);
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--color-divider);
+}
+
+.reset-button {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    background-color: transparent;
+    border-width: 0;
+    color: #ff6b6b;
+    font-size: 18px;
+    -unity-text-align: middle-left;
+    padding-left: 0;
+}
+
+/* Reskin the built-in Toggle into an iOS-style switch. */
+
+.unity-toggle {
+    flex-direction: row;
+    align-items: center;
+}
+
+.unity-toggle__input {
+    width: 52px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: var(--color-surface);
+    border-width: 0;
+    margin: 0;
+    flex-shrink: 0;
+    transition-property: background-color;
+    transition-duration: 0.15s;
+}
+
+.unity-toggle__checkmark {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    margin: 3px;
+    translate: 0px 0;
+    transition-property: translate;
+    transition-duration: 0.15s;
+}
+
+.unity-toggle:checked .unity-toggle__input {
+    background-color: #ff6b6b;
+}
+
+.unity-toggle:checked .unity-toggle__checkmark {
+    translate: 22px 0;
+}

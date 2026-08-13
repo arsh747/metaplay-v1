@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ui:VisualElement name="MainMenuPanel" class="screen">
+        <ui:VisualElement class="menu-spacer" />
+        <ui:Label text="TRIVIA MASTER" class="title" />
+        <ui:VisualElement class="title-accent" />
+        <ui:VisualElement class="menu-spacer" />
+        <ui:VisualElement class="menu-buttons">
+            <ui:Button name="StartButton" text="▶  START" class="btn btn--primary" />
+            <ui:Button name="SettingsButton" text="⚙  SETTINGS" class="btn" />
+            <ui:Button name="QuitButton" text="✕  QUIT" class="btn btn--last" />
+        </ui:VisualElement>
+        <ui:VisualElement class="menu-spacer" />
+    </ui:VisualElement>
+</ui:UXML>

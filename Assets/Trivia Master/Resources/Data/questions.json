@@ -1,0 +1,2846 @@
+{
+  "categories": [
+    {
+      "name": "Science",
+      "questions": [
+        {
+          "questionText": "Which planet is known as the Red Planet?",
+          "answerChoices": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Venus"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the largest planet in our Solar System?",
+          "answerChoices": [
+            "Earth",
+            "Jupiter",
+            "Saturn",
+            "Neptune"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which planet is closest to the Sun?",
+          "answerChoices": [
+            "Venus",
+            "Mercury",
+            "Earth",
+            "Mars"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which planet has the most moons?",
+          "answerChoices": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+          ],
+          "correctAnswerIndex": 3,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which planet is known as the Morning Star?",
+          "answerChoices": [
+            "Mars",
+            "Venus",
+            "Jupiter",
+            "Saturn"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which planet has the Great Red Spot?",
+          "answerChoices": [
+            "Mars",
+            "Jupiter",
+            "Saturn",
+            "Neptune"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which planet is furthest from the Sun?",
+          "answerChoices": [
+            "Uranus",
+            "Neptune",
+            "Pluto",
+            "Saturn"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which planet has rings around it?",
+          "answerChoices": [
+            "Mars",
+            "Jupiter",
+            "Saturn",
+            "Venus"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which planet is known as the Blue Planet?",
+          "answerChoices": [
+            "Mars",
+            "Venus",
+            "Earth",
+            "Neptune"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which planet has the shortest day?",
+          "answerChoices": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What force keeps us grounded on Earth?",
+          "answerChoices": [
+            "Gravity",
+            "Magnetism",
+            "Friction",
+            "Tension"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the unit of electrical resistance?",
+          "answerChoices": [
+            "Volt",
+            "Ampere",
+            "Ohm",
+            "Watt"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the unit of force?",
+          "answerChoices": [
+            "Joule",
+            "Newton",
+            "Watt",
+            "Pascal"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the unit of power?",
+          "answerChoices": [
+            "Joule",
+            "Newton",
+            "Watt",
+            "Volt"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the unit of energy?",
+          "answerChoices": [
+            "Joule",
+            "Newton",
+            "Watt",
+            "Volt"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the unit of pressure?",
+          "answerChoices": [
+            "Joule",
+            "Newton",
+            "Pascal",
+            "Watt"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What is the boiling point of water in Celsius?",
+          "answerChoices": [
+            "50",
+            "75",
+            "100",
+            "125"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the freezing point of water in Celsius?",
+          "answerChoices": [
+            "-10",
+            "0",
+            "10",
+            "20"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the chemical symbol for water?",
+          "answerChoices": [
+            "H2O",
+            "CO2",
+            "O2",
+            "H2SO4"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the chemical formula for methane?",
+          "answerChoices": [
+            "CH4",
+            "C2H6",
+            "CO2",
+            "H2O"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the chemical formula for carbon dioxide?",
+          "answerChoices": [
+            "CO",
+            "CO2",
+            "C2O",
+            "C2O4"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the chemical formula for ammonia?",
+          "answerChoices": [
+            "NH3",
+            "NO2",
+            "N2O",
+            "NH4"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the chemical symbol for Gold?",
+          "answerChoices": [
+            "Au",
+            "Ag",
+            "Pb",
+            "Fe"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the chemical symbol for Iron?",
+          "answerChoices": [
+            "Fe",
+            "Ir",
+            "In",
+            "I"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the chemical symbol for Silver?",
+          "answerChoices": [
+            "Ag",
+            "Au",
+            "Al",
+            "Ar"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the most abundant gas in Earth's atmosphere?",
+          "answerChoices": [
+            "Oxygen",
+            "Nitrogen",
+            "Argon",
+            "Hydrogen"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the hardest natural substance on Earth?",
+          "answerChoices": [
+            "Gold",
+            "Iron",
+            "Diamond",
+            "Platinum"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the process of plants making food called?",
+          "answerChoices": [
+            "Photosynthesis",
+            "Respiration",
+            "Transpiration",
+            "Fermentation"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What gas do plants absorb from the air?",
+          "answerChoices": [
+            "Oxygen",
+            "Nitrogen",
+            "CO2",
+            "Hydrogen"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What gas do plants release during photosynthesis?",
+          "answerChoices": [
+            "Oxygen",
+            "CO2",
+            "Nitrogen",
+            "Hydrogen"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the largest organ in the human body?",
+          "answerChoices": [
+            "Liver",
+            "Brain",
+            "Skin",
+            "Heart"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the smallest bone in the human body?",
+          "answerChoices": [
+            "Femur",
+            "Stapes",
+            "Tibia",
+            "Radius"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What is the largest bone in the human body?",
+          "answerChoices": [
+            "Femur",
+            "Tibia",
+            "Humerus",
+            "Pelvis"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which organ pumps blood in the human body?",
+          "answerChoices": [
+            "Liver",
+            "Brain",
+            "Heart",
+            "Kidney"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which organ filters blood in the human body?",
+          "answerChoices": [
+            "Liver",
+            "Kidney",
+            "Heart",
+            "Lungs"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the fastest land animal?",
+          "answerChoices": [
+            "Lion",
+            "Cheetah",
+            "Leopard",
+            "Horse"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the tallest animal on Earth?",
+          "answerChoices": [
+            "Elephant",
+            "Giraffe",
+            "Camel",
+            "Horse"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which animal is known as King of the Jungle?",
+          "answerChoices": [
+            "Tiger",
+            "Lion",
+            "Leopard",
+            "Bear"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which animal is known as Ship of the Desert?",
+          "answerChoices": [
+            "Horse",
+            "Camel",
+            "Elephant",
+            "Donkey"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the smallest bird in the world?",
+          "answerChoices": [
+            "Sparrow",
+            "Hummingbird",
+            "Robin",
+            "Finch"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What is the largest bird in the world?",
+          "answerChoices": [
+            "Eagle",
+            "Ostrich",
+            "Albatross",
+            "Peacock"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which bird is known for its colorful feathers?",
+          "answerChoices": [
+            "Sparrow",
+            "Peacock",
+            "Crow",
+            "Pigeon"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the chemical symbol for Sodium?",
+          "answerChoices": [
+            "Na",
+            "So",
+            "Sd",
+            "N"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the chemical symbol for Potassium?",
+          "answerChoices": [
+            "K",
+            "P",
+            "Po",
+            "Pt"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the chemical symbol for Calcium?",
+          "answerChoices": [
+            "Ca",
+            "Cl",
+            "C",
+            "Cm"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the chemical symbol for Magnesium?",
+          "answerChoices": [
+            "Mg",
+            "Mn",
+            "Mo",
+            "Mt"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the chemical symbol for Helium?",
+          "answerChoices": [
+            "He",
+            "H",
+            "Hl",
+            "Hy"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "name": "Movies",
+      "questions": [
+        {
+          "questionText": "Which franchise owns Spider-Man?",
+          "answerChoices": [
+            "Marvel",
+            "DC",
+            "Pixar",
+            "Universal"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "When was 'The Matrix' released?",
+          "answerChoices": [
+            "1997",
+            "1999",
+            "2001",
+            "2003"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which movie monster is created by Dr. Frankenstein?",
+          "answerChoices": [
+            "Frankenstein",
+            "Dracula",
+            "Mummy",
+            "Wolfman"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which classic movie monster is a vampire count from Transylvania?",
+          "answerChoices": [
+            "Dracula",
+            "Frankenstein",
+            "Mummy",
+            "Wolfman"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which movie features a great white shark terrorizing a beach town?",
+          "answerChoices": [
+            "Jaws",
+            "Titanic",
+            "Alien",
+            "Predator"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which sci-fi film features a deadly alien stalking a spaceship crew?",
+          "answerChoices": [
+            "Alien",
+            "Predator",
+            "Jaws",
+            "Godzilla"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which sci-fi franchise features an invisible extraterrestrial hunter?",
+          "answerChoices": [
+            "Predator",
+            "Alien",
+            "Godzilla",
+            "Jaws"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which giant monster is famous for attacking Tokyo?",
+          "answerChoices": [
+            "Godzilla",
+            "Mothra",
+            "Rodan",
+            "Gamera"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the mechanical shark's nickname on the set of 'Jaws'?",
+          "answerChoices": [
+            "Bruce",
+            "Nemo",
+            "Flipper",
+            "Moby"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which 1997 film became the highest-grossing movie of its time?",
+          "answerChoices": [
+            "Titanic",
+            "Avatar",
+            "Gladiator",
+            "Braveheart"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which 2009 film overtook Titanic as the highest-grossing film?",
+          "answerChoices": [
+            "Avatar",
+            "Titanic",
+            "Inception",
+            "Gravity"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Pixar film is about a grumpy old man who ties balloons to his house?",
+          "answerChoices": [
+            "Up",
+            "Cars",
+            "Coco",
+            "Brave"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which Pixar film features talking race cars?",
+          "answerChoices": [
+            "Cars",
+            "Up",
+            "Coco",
+            "Brave"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which Pixar film is set in Mexico during the Day of the Dead?",
+          "answerChoices": [
+            "Coco",
+            "Up",
+            "Brave",
+            "Luca"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Pixar film follows a Scottish princess who changes her fate?",
+          "answerChoices": [
+            "Brave",
+            "Coco",
+            "Up",
+            "Luca"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Pixar film is about a jazz musician who falls into the afterlife?",
+          "answerChoices": [
+            "Soul",
+            "Up",
+            "Coco",
+            "Luca"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Pixar film features an Italian sea monster boy on vacation?",
+          "answerChoices": [
+            "Luca",
+            "Coco",
+            "Up",
+            "Soul"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which animated film features a talking snowman named Olaf?",
+          "answerChoices": [
+            "Frozen",
+            "Coco",
+            "Up",
+            "Brave"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the name of the talking snowman in 'Frozen'?",
+          "answerChoices": [
+            "Olaf",
+            "Sven",
+            "Kristoff",
+            "Hans"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the name of the reindeer in 'Frozen'?",
+          "answerChoices": [
+            "Sven",
+            "Olaf",
+            "Kristoff",
+            "Hans"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the name of the lion cub prince in 'The Lion King'?",
+          "answerChoices": [
+            "Simba",
+            "Mufasa",
+            "Scar",
+            "Nala"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Who is Simba's villainous uncle in 'The Lion King'?",
+          "answerChoices": [
+            "Scar",
+            "Mufasa",
+            "Simba",
+            "Zazu"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the name of the ogre in 'Shrek'?",
+          "answerChoices": [
+            "Shrek",
+            "Donkey",
+            "Fiona",
+            "Puss"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the name of the clownfish father searching for his son in a Pixar film?",
+          "answerChoices": [
+            "Marlin",
+            "Nemo",
+            "Dory",
+            "Gill"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the name of the young clownfish who gets lost in 'Finding Nemo'?",
+          "answerChoices": [
+            "Nemo",
+            "Marlin",
+            "Dory",
+            "Bruce"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which hobbit carries the ring in 'The Lord of the Rings'?",
+          "answerChoices": [
+            "Frodo",
+            "Samwise",
+            "Bilbo",
+            "Merry"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who is the wise wizard who guides the fellowship in 'The Lord of the Rings'?",
+          "answerChoices": [
+            "Gandalf",
+            "Saruman",
+            "Radagast",
+            "Elrond"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the name of Batman's loyal butler?",
+          "answerChoices": [
+            "Alfred",
+            "Robin",
+            "Gordon",
+            "Lucius"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is Batman's real first name?",
+          "answerChoices": [
+            "Bruce",
+            "Clark",
+            "Peter",
+            "Tony"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is Superman's real first name?",
+          "answerChoices": [
+            "Clark",
+            "Bruce",
+            "Peter",
+            "Tony"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is Spider-Man's real first name?",
+          "answerChoices": [
+            "Peter",
+            "Bruce",
+            "Clark",
+            "Tony"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is Iron Man's real first name?",
+          "answerChoices": [
+            "Tony",
+            "Peter",
+            "Bruce",
+            "Clark"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which fictional city does Batman protect?",
+          "answerChoices": [
+            "Gotham",
+            "Metropolis",
+            "Asgard",
+            "Wakanda"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which fictional city does Superman protect?",
+          "answerChoices": [
+            "Metropolis",
+            "Gotham",
+            "Asgard",
+            "Wakanda"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which fictional African nation is home to Black Panther?",
+          "answerChoices": [
+            "Wakanda",
+            "Gotham",
+            "Asgard",
+            "Metropolis"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which realm does Thor come from?",
+          "answerChoices": [
+            "Asgard",
+            "Wakanda",
+            "Gotham",
+            "Metropolis"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Marvel villain wants to collect all the Infinity Stones?",
+          "answerChoices": [
+            "Thanos",
+            "Loki",
+            "Ultron",
+            "Ronan"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which Norse god of mischief appears in the Marvel films?",
+          "answerChoices": [
+            "Loki",
+            "Thor",
+            "Odin",
+            "Heimdall"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which Marvel hero turns green and smashes things when angry?",
+          "answerChoices": [
+            "Hulk",
+            "Thor",
+            "Loki",
+            "Thanos"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the name of Iron Man's AI assistant?",
+          "answerChoices": [
+            "Jarvis",
+            "Friday",
+            "Ultron",
+            "Vision"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which DC superhero is known as the fastest man alive?",
+          "answerChoices": [
+            "Flash",
+            "Superman",
+            "Batman",
+            "Aquaman"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which superhero rules the underwater kingdom of Atlantis?",
+          "answerChoices": [
+            "Aquaman",
+            "Flash",
+            "Superman",
+            "Batman"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What creature is King Kong?",
+          "answerChoices": [
+            "Gorilla",
+            "Dinosaur",
+            "Dragon",
+            "Bear"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which genre best describes 'The Exorcist'?",
+          "answerChoices": [
+            "Horror",
+            "Comedy",
+            "Romance",
+            "Western"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which movie genre features singing and dancing numbers?",
+          "answerChoices": [
+            "Musical",
+            "Horror",
+            "Western",
+            "Documentary"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which movie genre features gunfights in the American frontier?",
+          "answerChoices": [
+            "Western",
+            "Horror",
+            "Musical",
+            "Documentary"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the nickname of Hollywood's top film award trophy?",
+          "answerChoices": [
+            "Oscar",
+            "Emmy",
+            "Grammy",
+            "Tony"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which studio created 'Toy Story'?",
+          "answerChoices": [
+            "Pixar",
+            "Marvel",
+            "Universal",
+            "Paramount"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the name of the boy wizard in the Harry Potter films?",
+          "answerChoices": [
+            "Harry",
+            "Ron",
+            "Neville",
+            "Draco"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which boxer does Sylvester Stallone play in the 'Rocky' films?",
+          "answerChoices": [
+            "Rocky",
+            "Rambo",
+            "Apollo",
+            "Ivan"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the name of the shark-hunting boat captain in 'Jaws'?",
+          "answerChoices": [
+            "Quint",
+            "Hooper",
+            "Brody",
+            "Bruce"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "questions": [
+        {
+          "questionText": "Which country won the 2018 FIFA World Cup?",
+          "answerChoices": [
+            "Germany",
+            "Brazil",
+            "France",
+            "Argentina"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "In which sport would you perform a slam dunk?",
+          "answerChoices": [
+            "Basketball",
+            "Baseball",
+            "Football",
+            "Tennis"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the maximum score in a single game of bowling?",
+          "answerChoices": [
+            "200",
+            "250",
+            "300",
+            "350"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which country hosted the 2016 Summer Olympics?",
+          "answerChoices": [
+            "China",
+            "Russia",
+            "Brazil",
+            "Japan"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the record for most points in a single NBA game?",
+          "answerChoices": [
+            "81",
+            "100",
+            "77",
+            "63"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which country won the most gold medals at the 2008 Olympics?",
+          "answerChoices": [
+            "USA",
+            "China",
+            "Russia",
+            "Britain"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the longest race in track and field?",
+          "answerChoices": [
+            "Marathon",
+            "100m",
+            "1500m",
+            "10000m"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which country has won the most FIFA World Cups?",
+          "answerChoices": [
+            "Germany",
+            "Brazil",
+            "Italy",
+            "Argentina"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who is known as the King of Football?",
+          "answerChoices": [
+            "Pele",
+            "Maradona",
+            "Messi",
+            "Ronaldo"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which country is known for cricket?",
+          "answerChoices": [
+            "India",
+            "Pakistan",
+            "Australia",
+            "England"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which country invented basketball?",
+          "answerChoices": [
+            "USA",
+            "Canada",
+            "England",
+            "Japan"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which country invented football (soccer)?",
+          "answerChoices": [
+            "England",
+            "Brazil",
+            "Germany",
+            "Italy"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Who won the 2020 UEFA Euro?",
+          "answerChoices": [
+            "Italy",
+            "England",
+            "France",
+            "Germany"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which country is known as the home of sumo wrestling?",
+          "answerChoices": [
+            "China",
+            "Japan",
+            "Korea",
+            "India"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which sport is played on a pitch?",
+          "answerChoices": [
+            "Cricket",
+            "Tennis",
+            "Golf",
+            "Swimming"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the national sport of Japan?",
+          "answerChoices": [
+            "Sumo",
+            "Judo",
+            "Karate",
+            "Kendo"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the most-watched sport in the world?",
+          "answerChoices": [
+            "Cricket",
+            "Football",
+            "Basketball",
+            "Tennis"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which country is known for bullfighting?",
+          "answerChoices": [
+            "Spain",
+            "Mexico",
+            "Portugal",
+            "France"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the oldest sport in the world?",
+          "answerChoices": [
+            "Wrestling",
+            "Boxing",
+            "Running",
+            "Swimming"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which sport is played at Wimbledon?",
+          "answerChoices": [
+            "Tennis",
+            "Cricket",
+            "Golf",
+            "Rugby"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the national sport of India?",
+          "answerChoices": [
+            "Cricket",
+            "Hockey",
+            "Football",
+            "Kabaddi"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which country has the most FIFA World Cup wins?",
+          "answerChoices": [
+            "Brazil",
+            "Germany",
+            "Italy",
+            "Argentina"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who won the 2021 Copa America?",
+          "answerChoices": [
+            "Brazil",
+            "Argentina",
+            "Uruguay",
+            "Colombia"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which country is known for ice hockey?",
+          "answerChoices": [
+            "Canada",
+            "USA",
+            "Sweden",
+            "Russia"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the highest governing body of football?",
+          "answerChoices": [
+            "FIFA",
+            "UEFA",
+            "IOC",
+            "NBA"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which city hosted the 2020 Summer Olympics?",
+          "answerChoices": [
+            "Tokyo",
+            "Paris",
+            "London",
+            "Beijing"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which country is known for martial arts?",
+          "answerChoices": [
+            "China",
+            "Japan",
+            "Korea",
+            "Thailand"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which sport is known as the 'King of Sports'?",
+          "answerChoices": [
+            "Football",
+            "Cricket",
+            "Basketball",
+            "Tennis"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "In which sport do players use a shuttlecock?",
+          "answerChoices": [
+            "Badminton",
+            "Tennis",
+            "Squash",
+            "Cricket"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "In which sport is scoring three goals in one game called a 'hat-trick'?",
+          "answerChoices": [
+            "Football",
+            "Cricket",
+            "Golf",
+            "Chess"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which sport is played at the US Masters?",
+          "answerChoices": [
+            "Golf",
+            "Tennis",
+            "Cricket",
+            "Rugby"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "In which sport do you use a pommel horse?",
+          "answerChoices": [
+            "Gymnastics",
+            "Diving",
+            "Fencing",
+            "Archery"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which sport involves hitting a ball with a mallet on horseback?",
+          "answerChoices": [
+            "Polo",
+            "Croquet",
+            "Cricket",
+            "Hockey"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which sport uses a puck?",
+          "answerChoices": [
+            "Hockey",
+            "Football",
+            "Baseball",
+            "Golf"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which athletics event involves throwing a discus?",
+          "answerChoices": [
+            "Athletics",
+            "Gymnastics",
+            "Wrestling",
+            "Boxing"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which sport is played with a bat, ball, and wickets?",
+          "answerChoices": [
+            "Cricket",
+            "Baseball",
+            "Tennis",
+            "Golf"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which sport uses the scoring terms 'love' and 'deuce'?",
+          "answerChoices": [
+            "Tennis",
+            "Badminton",
+            "Squash",
+            "Volleyball"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "In which sport is the Ashes trophy contested?",
+          "answerChoices": [
+            "Cricket",
+            "Rugby",
+            "Football",
+            "Golf"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which sport is played on a diamond?",
+          "answerChoices": [
+            "Baseball",
+            "Cricket",
+            "Softball",
+            "Golf"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which sport's Grand Slam tournaments include Wimbledon and the US Open?",
+          "answerChoices": [
+            "Tennis",
+            "Badminton",
+            "Squash",
+            "Cricket"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "In which sport do athletes compete in a velodrome?",
+          "answerChoices": [
+            "Cycling",
+            "Athletics",
+            "Skating",
+            "Swimming"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which winter sport involves sliding down a track headfirst on a sled?",
+          "answerChoices": [
+            "Skeleton",
+            "Luge",
+            "Bobsled",
+            "Curling"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which sport uses stones and brooms on ice?",
+          "answerChoices": [
+            "Curling",
+            "Skeleton",
+            "Luge",
+            "Hockey"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Japanese combat sport involves throws and grappling?",
+          "answerChoices": [
+            "Judo",
+            "Karate",
+            "Boxing",
+            "Fencing"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which sport involves competitors fencing with swords?",
+          "answerChoices": [
+            "Fencing",
+            "Judo",
+            "Boxing",
+            "Archery"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which sport uses a bow and arrow?",
+          "answerChoices": [
+            "Archery",
+            "Fencing",
+            "Shooting",
+            "Javelin"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which sport is played on a green with a jack and bowls?",
+          "answerChoices": [
+            "Bowls",
+            "Bowling",
+            "Curling",
+            "Croquet"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which sport features a scrum?",
+          "answerChoices": [
+            "Rugby",
+            "Football",
+            "Hockey",
+            "Cricket"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which global multi-sport event is symbolized by five interlocking rings?",
+          "answerChoices": [
+            "Olympics",
+            "FIFA",
+            "NBA",
+            "UEFA"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which sport is played with 11 players a side, chasing a round ball into a net?",
+          "answerChoices": [
+            "Football",
+            "Rugby",
+            "Hockey",
+            "Cricket"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "In which sport do you complete a 'century' by scoring 100 runs?",
+          "answerChoices": [
+            "Cricket",
+            "Baseball",
+            "Rugby",
+            "Golf"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which sport is famous for the Tour de France?",
+          "answerChoices": [
+            "Cycling",
+            "Athletics",
+            "Swimming",
+            "Rowing"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "questions": [
+        {
+          "questionText": "Which year did World War II end?",
+          "answerChoices": [
+            "1939",
+            "1945",
+            "1950",
+            "1941"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "In which year did the Titanic sink?",
+          "answerChoices": [
+            "1910",
+            "1912",
+            "1914",
+            "1920"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What was the primary cause of the American Civil War?",
+          "answerChoices": [
+            "Slavery",
+            "Expansion",
+            "Taxation",
+            "Independence"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "In which year did the Berlin Wall fall?",
+          "answerChoices": [
+            "1989",
+            "1990",
+            "1991",
+            "1987"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which empire was ruled by Julius Caesar?",
+          "answerChoices": [
+            "Roman",
+            "Ottoman",
+            "Mongol",
+            "Byzantine"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which country was formerly known as Persia?",
+          "answerChoices": [
+            "Turkey",
+            "Iran",
+            "Iraq",
+            "Afghanistan"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What year did the American Revolutionary War begin?",
+          "answerChoices": [
+            "1776",
+            "1775",
+            "1783",
+            "1790"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What was the name of the first man-made satellite?",
+          "answerChoices": [
+            "Sputnik",
+            "Explorer",
+            "Apollo",
+            "Vostok"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which civilization built the pyramids?",
+          "answerChoices": [
+            "Egyptian",
+            "Roman",
+            "Greek",
+            "Persian"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which civilization invented democracy?",
+          "answerChoices": [
+            "Greek",
+            "Roman",
+            "Egyptian",
+            "Persian"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What was the first printed book called?",
+          "answerChoices": [
+            "Bible",
+            "Quran",
+            "Gita",
+            "Torah"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Who was the first emperor of Rome?",
+          "answerChoices": [
+            "Augustus",
+            "Julius",
+            "Nero",
+            "Tiberius"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What year did World War I begin?",
+          "answerChoices": [
+            "1912",
+            "1914",
+            "1916",
+            "1918"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What year did World War I end?",
+          "answerChoices": [
+            "1916",
+            "1917",
+            "1918",
+            "1919"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who was the last emperor of Russia?",
+          "answerChoices": [
+            "Nicholas",
+            "Alexander",
+            "Peter",
+            "Catherine"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which country was the first to use paper money?",
+          "answerChoices": [
+            "China",
+            "India",
+            "Persia",
+            "Egypt"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What was the largest empire in history?",
+          "answerChoices": [
+            "Mongol",
+            "British",
+            "Roman",
+            "Ottoman"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who was the first woman in space?",
+          "answerChoices": [
+            "Tereshkova",
+            "Ride",
+            "Sally",
+            "Savitskaya"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What was the first planet discovered with a telescope?",
+          "answerChoices": [
+            "Uranus",
+            "Neptune",
+            "Jupiter",
+            "Saturn"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Who built the Great Wall of China?",
+          "answerChoices": [
+            "Qin",
+            "Ming",
+            "Tang",
+            "Han"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Who was the first President of India?",
+          "answerChoices": [
+            "Nehru",
+            "Prasad",
+            "Gandhi",
+            "Patel"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What was the first dynasty of China?",
+          "answerChoices": [
+            "Xia",
+            "Shang",
+            "Zhou",
+            "Qin"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which empire was ruled by Genghis Khan?",
+          "answerChoices": [
+            "Mongol",
+            "Ottoman",
+            "Roman",
+            "Persian"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who was the first king of England?",
+          "answerChoices": [
+            "Alfred",
+            "William",
+            "Henry",
+            "Edward"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What year did the French Revolution begin?",
+          "answerChoices": [
+            "1776",
+            "1789",
+            "1799",
+            "1800"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What year did the American Civil War end?",
+          "answerChoices": [
+            "1861",
+            "1863",
+            "1865",
+            "1867"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who was the first person to circumnavigate the world?",
+          "answerChoices": [
+            "Magellan",
+            "Drake",
+            "Columbus",
+            "Vespucci"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What year did the Spanish Inquisition begin?",
+          "answerChoices": [
+            "1478",
+            "1492",
+            "1500",
+            "1510"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Who was the first female ruler of Russia?",
+          "answerChoices": [
+            "Catherine",
+            "Elizabeth",
+            "Maria",
+            "Olga"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What year did the Korean War begin?",
+          "answerChoices": [
+            "1949",
+            "1950",
+            "1951",
+            "1952"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who was the first explorer to reach the North Pole?",
+          "answerChoices": [
+            "Peary",
+            "Amundsen",
+            "Scott",
+            "Shackleton"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which empire built the Taj Mahal?",
+          "answerChoices": [
+            "Mughal",
+            "British",
+            "Persian",
+            "Ottoman"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What year did the fall of Constantinople happen?",
+          "answerChoices": [
+            "1450",
+            "1453",
+            "1455",
+            "1460"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "In which year did World War II begin?",
+          "answerChoices": [
+            "1939",
+            "1941",
+            "1945",
+            "1935"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "In which year did Christopher Columbus first reach the Americas?",
+          "answerChoices": [
+            "1492",
+            "1500",
+            "1485",
+            "1510"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "In which year did the Wright brothers achieve powered flight?",
+          "answerChoices": [
+            "1903",
+            "1899",
+            "1910",
+            "1915"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "In which year did humans first land on the Moon?",
+          "answerChoices": [
+            "1969",
+            "1965",
+            "1972",
+            "1961"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "In which year did the Soviet Union collapse?",
+          "answerChoices": [
+            "1991",
+            "1989",
+            "1993",
+            "1985"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "In which year did India gain independence?",
+          "answerChoices": [
+            "1947",
+            "1945",
+            "1950",
+            "1942"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which ancient wonder was a giant lighthouse in Alexandria?",
+          "answerChoices": [
+            "Lighthouse",
+            "Colossus",
+            "Pyramid",
+            "Temple"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which civilization built Machu Picchu?",
+          "answerChoices": [
+            "Inca",
+            "Aztec",
+            "Maya",
+            "Olmec"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which civilization built the city of Chichen Itza?",
+          "answerChoices": [
+            "Maya",
+            "Inca",
+            "Aztec",
+            "Olmec"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which empire was ruled by Montezuma?",
+          "answerChoices": [
+            "Aztec",
+            "Inca",
+            "Maya",
+            "Olmec"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who was the first President of the United States?",
+          "answerChoices": [
+            "Washington",
+            "Adams",
+            "Jefferson",
+            "Lincoln"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Who wrote the Declaration of Independence?",
+          "answerChoices": [
+            "Jefferson",
+            "Washington",
+            "Franklin",
+            "Adams"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who was President of the United States during the Civil War?",
+          "answerChoices": [
+            "Lincoln",
+            "Washington",
+            "Grant",
+            "Jefferson"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Who was the British Prime Minister for most of World War II?",
+          "answerChoices": [
+            "Churchill",
+            "Chamberlain",
+            "Attlee",
+            "Eden"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who led the Soviet Union during World War II?",
+          "answerChoices": [
+            "Stalin",
+            "Lenin",
+            "Trotsky",
+            "Khrushchev"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Who was the leader of Nazi Germany?",
+          "answerChoices": [
+            "Hitler",
+            "Goebbels",
+            "Himmler",
+            "Goering"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Who was the first man to walk on the Moon?",
+          "answerChoices": [
+            "Armstrong",
+            "Aldrin",
+            "Collins",
+            "Glenn"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Who was the first person to travel into space?",
+          "answerChoices": [
+            "Gagarin",
+            "Armstrong",
+            "Glenn",
+            "Titov"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which queen ruled England during the defeat of the Spanish Armada?",
+          "answerChoices": [
+            "Elizabeth",
+            "Victoria",
+            "Mary",
+            "Anne"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Renaissance master sculpted David and painted the Sistine Chapel ceiling?",
+          "answerChoices": [
+            "Michelangelo",
+            "Raphael",
+            "Donatello",
+            "Leonardo"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Egyptian queen was known for her alliances with Julius Caesar and Mark Antony?",
+          "answerChoices": [
+            "Cleopatra",
+            "Nefertiti",
+            "Hatshepsut",
+            "Isis"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which pharaoh's nearly intact tomb was discovered in 1922?",
+          "answerChoices": [
+            "Tutankhamun",
+            "Ramses",
+            "Akhenaten",
+            "Khufu"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which country did Napoleon Bonaparte rule as emperor?",
+          "answerChoices": [
+            "France",
+            "Spain",
+            "Italy",
+            "Prussia"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which 1815 battle marked Napoleon's final defeat?",
+          "answerChoices": [
+            "Waterloo",
+            "Trafalgar",
+            "Leipzig",
+            "Austerlitz"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which naval battle did Admiral Nelson win in 1805?",
+          "answerChoices": [
+            "Trafalgar",
+            "Waterloo",
+            "Leipzig",
+            "Jutland"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Which kingdom did Alexander the Great rule before his conquests?",
+          "answerChoices": [
+            "Macedonia",
+            "Greece",
+            "Persia",
+            "Egypt"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "What is the single-word name for the 14th-century pandemic that killed millions in Europe?",
+          "answerChoices": [
+            "Plague",
+            "Famine",
+            "Drought",
+            "Flood"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Roman emperor built a famous wall across northern Britain?",
+          "answerChoices": [
+            "Hadrian",
+            "Trajan",
+            "Nero",
+            "Claudius"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "hard"
+        },
+        {
+          "questionText": "Whose voyages led Spain to claim large parts of the Americas?",
+          "answerChoices": [
+            "Columbus",
+            "Magellan",
+            "Cortes",
+            "Pizarro"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "Which Spanish conquistador conquered the Aztec Empire?",
+          "answerChoices": [
+            "Cortes",
+            "Pizarro",
+            "Columbus",
+            "Magellan"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "Which Spanish conquistador conquered the Inca Empire?",
+          "answerChoices": [
+            "Pizarro",
+            "Cortes",
+            "Columbus",
+            "Magellan"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "questions": [
+        {
+          "questionText": "What is the capital of France?",
+          "answerChoices": [
+            "Berlin",
+            "Madrid",
+            "Paris",
+            "Rome"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Japan?",
+          "answerChoices": [
+            "Beijing",
+            "Seoul",
+            "Tokyo",
+            "Bangkok"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Germany?",
+          "answerChoices": [
+            "Paris",
+            "Berlin",
+            "Madrid",
+            "Rome"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Italy?",
+          "answerChoices": [
+            "Paris",
+            "Berlin",
+            "Madrid",
+            "Rome"
+          ],
+          "correctAnswerIndex": 3,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Spain?",
+          "answerChoices": [
+            "Paris",
+            "Berlin",
+            "Madrid",
+            "Rome"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of China?",
+          "answerChoices": [
+            "Tokyo",
+            "Seoul",
+            "Beijing",
+            "Bangkok"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of India?",
+          "answerChoices": [
+            "Mumbai",
+            "Delhi",
+            "Kolkata",
+            "Chennai"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Pakistan?",
+          "answerChoices": [
+            "Lahore",
+            "Karachi",
+            "Islamabad",
+            "Peshawar"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Canada?",
+          "answerChoices": [
+            "Toronto",
+            "Ottawa",
+            "Vancouver",
+            "Montreal"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Egypt?",
+          "answerChoices": [
+            "Alexandria",
+            "Cairo",
+            "Luxor",
+            "Aswan"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Turkey?",
+          "answerChoices": [
+            "Istanbul",
+            "Ankara",
+            "Izmir",
+            "Antalya"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Iran?",
+          "answerChoices": [
+            "Tehran",
+            "Isfahan",
+            "Shiraz",
+            "Tabriz"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Saudi Arabia?",
+          "answerChoices": [
+            "Jeddah",
+            "Mecca",
+            "Riyadh",
+            "Medina"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Australia?",
+          "answerChoices": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Perth"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of New Zealand?",
+          "answerChoices": [
+            "Auckland",
+            "Wellington",
+            "Christchurch",
+            "Hamilton"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Nigeria?",
+          "answerChoices": [
+            "Lagos",
+            "Abuja",
+            "Kano",
+            "Ibadan"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Kenya?",
+          "answerChoices": [
+            "Mombasa",
+            "Nairobi",
+            "Kisumu",
+            "Nakuru"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Peru?",
+          "answerChoices": [
+            "Arequipa",
+            "Trujillo",
+            "Lima",
+            "Cusco"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Colombia?",
+          "answerChoices": [
+            "Medellin",
+            "Bogota",
+            "Cali",
+            "Cartagena"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Venezuela?",
+          "answerChoices": [
+            "Maracaibo",
+            "Caracas",
+            "Valencia",
+            "Barquisimeto"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Greece?",
+          "answerChoices": [
+            "Thessaloniki",
+            "Athens",
+            "Patras",
+            "Heraklion"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Portugal?",
+          "answerChoices": [
+            "Porto",
+            "Lisbon",
+            "Braga",
+            "Coimbra"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Belgium?",
+          "answerChoices": [
+            "Antwerp",
+            "Brussels",
+            "Ghent",
+            "Bruges"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Austria?",
+          "answerChoices": [
+            "Salzburg",
+            "Vienna",
+            "Innsbruck",
+            "Graz"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Switzerland?",
+          "answerChoices": [
+            "Zurich",
+            "Geneva",
+            "Bern",
+            "Basel"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Sweden?",
+          "answerChoices": [
+            "Gothenburg",
+            "Malmo",
+            "Stockholm",
+            "Uppsala"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Norway?",
+          "answerChoices": [
+            "Bergen",
+            "Trondheim",
+            "Oslo",
+            "Stavanger"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Denmark?",
+          "answerChoices": [
+            "Aarhus",
+            "Odense",
+            "Copenhagen",
+            "Aalborg"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Finland?",
+          "answerChoices": [
+            "Espoo",
+            "Tampere",
+            "Helsinki",
+            "Turku"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Poland?",
+          "answerChoices": [
+            "Krakow",
+            "Warsaw",
+            "Gdansk",
+            "Wroclaw"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Ukraine?",
+          "answerChoices": [
+            "Lviv",
+            "Odessa",
+            "Kyiv",
+            "Kharkiv"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Hungary?",
+          "answerChoices": [
+            "Debrecen",
+            "Szeged",
+            "Budapest",
+            "Pecs"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Romania?",
+          "answerChoices": [
+            "Cluj",
+            "Timisoara",
+            "Bucharest",
+            "Iasi"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Bulgaria?",
+          "answerChoices": [
+            "Plovdiv",
+            "Varna",
+            "Sofia",
+            "Burgas"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Croatia?",
+          "answerChoices": [
+            "Split",
+            "Rijeka",
+            "Zagreb",
+            "Osijek"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Ireland?",
+          "answerChoices": [
+            "Cork",
+            "Limerick",
+            "Dublin",
+            "Galway"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Bangladesh?",
+          "answerChoices": [
+            "Chittagong",
+            "Dhaka",
+            "Khulna",
+            "Rajshahi"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "easy"
+        },
+        {
+          "questionText": "What is the capital of Sri Lanka?",
+          "answerChoices": [
+            "Colombo",
+            "Kandy",
+            "Galle",
+            "Jaffna"
+          ],
+          "correctAnswerIndex": 0,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Nepal?",
+          "answerChoices": [
+            "Pokhara",
+            "Kathmandu",
+            "Lalitpur",
+            "Biratnagar"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Afghanistan?",
+          "answerChoices": [
+            "Kandahar",
+            "Herat",
+            "Kabul",
+            "Mazar"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Iraq?",
+          "answerChoices": [
+            "Basra",
+            "Mosul",
+            "Baghdad",
+            "Erbil"
+          ],
+          "correctAnswerIndex": 2,
+          "difficulty": "medium"
+        },
+        {
+          "questionText": "What is the capital of Syria?",
+          "answerChoices": [
+            "Aleppo",
+            "Damascus",
+            "Homs",
+            "Latakia"
+          ],
+          "correctAnswerIndex": 1,
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ],
+  "randomQuestions": []
+}

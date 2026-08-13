@@ -1,0 +1,52 @@
+.home-topbar {
+    flex-direction: row;
+    align-items: center;
+    height: 88px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu-button {
+    background-image: url("/Assets/Hub/Images/Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+
+.app-logo-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background-image: url("/Assets/Hub/UI/Images/Logo.png");
+    margin-left: 10px;
+}
+
+.home-title {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: var(--color-text-primary);
+    margin-left: 10px;
+}
+
+.quit-button {
+    height: 52px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 16px;
+    background-color: var(--color-surface);
+    color: #ff6b6b;
+    border-width: 0;
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.home-scroll {
+    flex-grow: 1;
+}
+
+.game-grid {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px 8px 32px 8px;
+}

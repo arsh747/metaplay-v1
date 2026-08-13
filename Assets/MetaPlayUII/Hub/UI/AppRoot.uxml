@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="Common.uss" />
+    <ui:Style src="Splash.uss" />
+    <ui:Style src="Home.uss" />
+    <ui:Style src="Settings.uss" />
+    <ui:Style src="GameCard.uss" />
+
+    <ui:VisualElement name="app-root" class="app-root theme-dark">
+
+        <!-- ===== Splash screen ===== -->
+        <ui:VisualElement name="splash-panel" class="splash-panel screen-panel">
+            <ui:VisualElement class="splash-center">
+                <ui:VisualElement class="logo-badge">
+                    <ui:Label text="&#9654;" class="logo-play-icon" />
+                    <ui:Label text="&#127760;" class="floating-icon floating-icon-globe" />
+                    <ui:Label text="&#128081;" class="floating-icon floating-icon-crown" />
+                    <ui:Label text="&#128663;" class="floating-icon floating-icon-car" />
+                </ui:VisualElement>
+                <ui:Label text="MetaPlay" class="splash-title" />
+                <ui:Label text="7 games to play, no wifi needed" class="splash-subtitle" />
+            </ui:VisualElement>
+            <ui:VisualElement class="loading-track">
+                <ui:VisualElement name="loading-fill" class="loading-fill" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- ===== Home / game grid screen ===== -->
+        <ui:VisualElement name="home-panel" class="home-panel screen-panel" style="display: none;">
+            <ui:VisualElement name="home-topbar" class="home-topbar">
+                <ui:Button name="menu-button" text="" class="icon-button" focusable="false" />
+                <ui:VisualElement class="app-logo-icon" />
+                <ui:Label text="MetaPlay" class="home-title" />
+                <ui:VisualElement class="spacer" />
+                <ui:Button name="quit-button" text="Quit" class="quit-button" focusable="false" />
+            </ui:VisualElement>
+            <ui:ScrollView name="home-scroll-view" class="home-scroll" mode="Vertical" vertical-scroller-visibility="Hidden" touch-scroll-behavior="Clamped">
+                <ui:VisualElement name="game-grid" class="game-grid" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+
+        <!-- ===== Settings screen ===== -->
+        <ui:VisualElement name="settings-panel" class="settings-panel screen-panel" style="display: none;">
+            <ui:VisualElement name="settings-topbar" class="settings-topbar">
+                <ui:Button name="settings-back-button" text="&#9664;" class="back-button" focusable="false" />
+                <ui:Label text="Settings" class="settings-title" />
+            </ui:VisualElement>
+            <ui:ScrollView name="settings-scroll-view" class="settings-scroll" mode="Vertical" vertical-scroller-visibility="Hidden" touch-scroll-behavior="Clamped">
+                <ui:Label text="AUDIO" class="section-label" />
+
+                <ui:VisualElement class="settings-row">
+                    <ui:Label text="Sound Effects" class="row-label" />
+                    <ui:Toggle name="toggle-sound" focusable="false" />
+                </ui:VisualElement>
+                <ui:VisualElement class="divider" />
+
+                <ui:VisualElement class="settings-row">
+                    <ui:Label text="Music" class="row-label" />
+                    <ui:Toggle name="toggle-music" focusable="false" />
+                </ui:VisualElement>
+
+                <ui:Label text="GENERAL" class="section-label" />
+
+                <ui:VisualElement class="settings-row">
+                    <ui:Label text="Dark Theme" class="row-label" />
+                    <ui:Toggle name="toggle-theme" focusable="false" />
+                </ui:VisualElement>
+                <ui:VisualElement class="divider" />
+
+                <ui:VisualElement name="row-about" class="settings-row">
+                    <ui:Label text="About &amp; Version" class="row-label" />
+                    <ui:Label name="about-version-value" text="1.0.0" class="row-value" />
+                    <ui:Label text="&#8250;" class="row-chevron" />
+                </ui:VisualElement>
+
+                <ui:Button name="button-reset" text="Restore All Settings" class="reset-button" focusable="false" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

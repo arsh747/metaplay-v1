@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ui:VisualElement name="SettingsPanel" class="screen screen--hidden">
+        <ui:Label text="SETTINGS" class="title title--compact" />
+        <ui:VisualElement class="settings-list">
+            <ui:VisualElement class="settings-row">
+                <ui:Label text="🎵  Music" class="settings-row__label" />
+                <ui:Toggle name="MusicToggle" />
+            </ui:VisualElement>
+            <ui:VisualElement class="settings-row">
+                <ui:Label text="🔊  SFX" class="settings-row__label" />
+                <ui:Toggle name="SFXToggle" />
+            </ui:VisualElement>
+            <ui:VisualElement class="settings-row">
+                <ui:Label text="🌙  Dark Theme" class="settings-row__label" />
+                <ui:Toggle name="ThemeToggle" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="menu-spacer" />
+        <ui:Button name="SettingsBackButton" text="BACK" class="btn btn--compact btn--last" />
+    </ui:VisualElement>
+</ui:UXML>

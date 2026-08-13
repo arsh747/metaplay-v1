@@ -1,0 +1,68 @@
+.game-card-slot {
+    width: 46%;
+    margin: 4px;
+}
+
+.game-card {
+    aspect-ratio: 0.9;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.card-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Guarantees the title stays readable no matter what colors/busyness
+   the underlying artwork has, rather than relying on luck. */
+.card-header-scrim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 74px;
+    background-color: rgba(0, 0, 0, 0.32);
+}
+
+.card-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+    white-space: normal;
+}
+
+.card-underline {
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    margin-top: 2px;
+}
+
+.card-lock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.lock-label {
+    color: #ffffff;
+    font-size: 15px;
+}

@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ui:Style src="../USS/theme.uss" />
+    <ui:Style src="../USS/main.uss" />
+    <ui:Template name="MainMenu" src="MainMenu.uxml" />
+    <ui:Template name="Settings" src="Settings.uxml" />
+    <ui:Template name="CategorySelect" src="CategorySelect.uxml" />
+    <ui:Template name="Question" src="Question.uxml" />
+    <ui:Template name="GameOver" src="GameOver.uxml" />
+    <ui:Template name="CategoryComplete" src="CategoryComplete.uxml" />
+    <ui:VisualElement name="GameRoot" class="theme-root">
+        <ui:Instance template="MainMenu" class="screen-slot" />
+        <ui:Instance template="Settings" class="screen-slot" />
+        <ui:Instance template="CategorySelect" class="screen-slot" />
+        <ui:Instance template="Question" class="screen-slot" />
+        <ui:Instance template="GameOver" class="screen-slot" />
+        <ui:Instance template="CategoryComplete" class="screen-slot" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ui:VisualElement name="CategoryPanel" class="screen screen--hidden">
+        <ui:Label text="SELECT CATEGORY" class="title title--compact" />
+        <ui:VisualElement class="category-spacer" />
+        <ui:VisualElement class="category-list">
+            <ui:Button name="CategoryMoviesButton" text="🎬  MOVIES" class="btn cat-btn cat-btn--movies" />
+            <ui:Button name="CategoryHistoryButton" text="🏛  HISTORY" class="btn cat-btn cat-btn--history" />
+            <ui:Button name="CategorySportsButton" text="⚽  SPORTS" class="btn cat-btn cat-btn--sports" />
+            <ui:Button name="CategoryScienceButton" text="🔬  SCIENCE" class="btn cat-btn cat-btn--science" />
+            <ui:Button name="CategoryRandomButton" text="🎲  RANDOM" class="btn cat-btn cat-btn--random btn--last" />
+        </ui:VisualElement>
+        <ui:VisualElement class="menu-spacer" />
+        <ui:Button name="CategoryBackButton" text="BACK" class="btn btn--compact btn--last" />
+    </ui:VisualElement>
+</ui:UXML>

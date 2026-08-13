@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ui:VisualElement name="GameOverPanel" class="screen screen--hidden modal-backdrop">
+        <ui:VisualElement class="modal-card">
+            <ui:VisualElement class="modal-accent modal-accent--danger" />
+            <ui:Label text="💔  GAME OVER" class="modal-title modal-title--danger" />
+            <ui:Label name="GameOverScoreText" text="0/10" class="modal-score" />
+            <ui:VisualElement class="modal-buttons">
+                <ui:Button name="GameOverRetryButton" text="↻  TRY AGAIN" class="btn btn--primary" />
+                <ui:Button name="GameOverMenuButton" text="BACK TO MENU" class="btn btn--last" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,72 @@
+.splash-panel {
+    align-items: center;
+    justify-content: center;
+}
+
+.splash-center {
+    align-items: center;
+}
+
+.logo-badge {
+    width: 140px;
+    height: 140px;
+    border-radius: 32px;
+    background-color: #b06ad1;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.floating-icon {
+    position: absolute;
+    font-size: 28px;
+}
+
+.floating-icon-globe {
+    top: -22px;
+    left: -72px;
+}
+
+.floating-icon-crown {
+    top: -38px;
+    right: -56px;
+}
+
+.floating-icon-car {
+    bottom: -22px;
+    right: -68px;
+}
+
+.logo-play-icon {
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.splash-title {
+    font-size: 32px;
+    -unity-font-style: bold;
+    color: var(--color-text-primary);
+    margin-bottom: 10px;
+}
+
+.splash-subtitle {
+    font-size: 17px;
+    color: var(--color-text-secondary);
+}
+
+.loading-track {
+    position: absolute;
+    left: 32px;
+    right: 32px;
+    bottom: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--color-surface);
+}
+
+.loading-fill {
+    height: 4px;
+    width: 0%;
+    border-radius: 2px;
+    background-color: #b06ad1;
+}

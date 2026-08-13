@@ -1,0 +1,265 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Style src="WordGameUI.uss" />
+
+    <ui:VisualElement name="root" class="root">
+
+        <!-- =========================== MAIN MENU =========================== -->
+        <ui:VisualElement name="main-menu-panel" class="panel bg-gradient">
+            <ui:VisualElement class="blob" style="width:120px;height:120px;top:-30px;left:-30px;" />
+            <ui:VisualElement class="blob" style="width:80px;height:80px;bottom:60px;right:-20px;" />
+
+            <ui:Label text="WORD&#10;QUIZ" class="menu-title heading" />
+
+            <ui:VisualElement name="menu-logo-row" class="menu-logo-row">
+                <ui:VisualElement class="tile green" style="width:26px;height:26px;font-size:14px;"><ui:Label text="W" /></ui:VisualElement>
+                <ui:VisualElement class="tile yellow" style="width:26px;height:26px;font-size:14px;"><ui:Label text="O" /></ui:VisualElement>
+                <ui:VisualElement class="tile empty" style="width:26px;height:26px;font-size:14px;"><ui:Label text="R" /></ui:VisualElement>
+                <ui:VisualElement class="tile green" style="width:26px;height:26px;font-size:14px;"><ui:Label text="D" /></ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="daily-card" class="card daily-card">
+                <ui:VisualElement class="daily-top">
+                    <ui:Label text="&#9733; DAILY" class="daily-badge" />
+                    <ui:Label name="daily-puzzle-label" text="Puzzle #142" />
+                </ui:VisualElement>
+                <ui:Label name="daily-timer-label" text="Next in 10:28:05" class="timer-pill" />
+                <ui:Button name="daily-play-button" text="Play Daily" class="btn primary" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="selectors">
+                <ui:VisualElement class="selector">
+                    <ui:Label text="WORD LENGTH" class="selector-label" />
+                    <ui:VisualElement class="stepper-row">
+                        <ui:Button name="word-length-minus" text="&#8722;" class="step-btn minus" />
+                        <ui:Label name="word-length-value" text="4" class="selector-value" />
+                        <ui:Button name="word-length-plus" text="+" class="step-btn plus" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="selector">
+                    <ui:Label text="# GUESSES" class="selector-label" />
+                    <ui:VisualElement class="stepper-row">
+                        <ui:Button name="guesses-minus" text="&#8722;" class="step-btn minus" />
+                        <ui:Label name="guesses-value" text="6" class="selector-value" />
+                        <ui:Button name="guesses-plus" text="+" class="step-btn plus" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="menu-actions">
+                <ui:Button name="play-button" text="&#9654; PLAY" class="btn pink" />
+                <ui:Button name="how-to-play-button" text="&#10067; How To Play" class="btn secondary" />
+                <ui:Button name="options-button" text="&#9881;&#65039; Options" class="btn secondary" />
+            </ui:VisualElement>
+
+            <ui:Button name="quit-button" text="Quit" class="btn secondary menu-margin" />
+        </ui:VisualElement>
+
+        <!-- ========================= HOW TO PLAY =========================== -->
+        <ui:VisualElement name="how-to-play-panel" class="panel bg-gradient hidden">
+            <ui:VisualElement class="htp-header">
+                <ui:Label text="How To Play" class="heading" style="font-size:24px;" />
+                <ui:Label text="Guess the word in 6 tries &#127919;" class="htp-subtext" />
+            </ui:VisualElement>
+
+            <ui:ScrollView name="how-to-play-scroll" class="htp-scroll">
+                <ui:VisualElement class="card htp-card">
+                    <ui:VisualElement class="htp-row">
+                        <ui:VisualElement class="tile green" style="width:32px;height:32px;font-size:15px;"><ui:Label text="B" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="U" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="G" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="G" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="Y" /></ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="htp-explain">
+                        <ui:Label text="&#10003;" class="badge-icon bg-green" />
+                        <ui:Label text="B is in the correct spot" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="card htp-card">
+                    <ui:VisualElement class="htp-row">
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="R" /></ui:VisualElement>
+                        <ui:VisualElement class="tile yellow" style="width:32px;height:32px;font-size:15px;"><ui:Label text="A" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="T" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="T" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="Y" /></ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="htp-explain">
+                        <ui:Label text="&#8596;" class="badge-icon bg-yellow-dark" />
+                        <ui:Label text="A is in the word, wrong spot" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="card htp-card">
+                    <ui:VisualElement class="htp-row">
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="S" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="I" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="L" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="O" /></ui:VisualElement>
+                        <ui:VisualElement class="tile empty" style="width:32px;height:32px;font-size:15px;"><ui:Label text="S" /></ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="htp-explain">
+                        <ui:Label text="&#10005;" class="badge-icon bg-grey" />
+                        <ui:Label text="None of these letters are in it" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+
+            <ui:VisualElement style="padding:12px 16px 18px 16px;">
+                <ui:Button name="lets-play-button" text="Let's Play! &#127881;" class="btn primary" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- ============================ OPTIONS ============================= -->
+        <ui:VisualElement name="options-panel" class="panel bg-dark hidden">
+            <ui:VisualElement class="opt-header">
+                <ui:Label text="Options" class="heading" style="font-size:22px;" />
+                <ui:Button name="options-close-button" text="&#8249; Back" class="btn-back" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="opt-list">
+                <ui:VisualElement class="card opt-row">
+                    <ui:Label text="&#128293;" class="opt-icon bg-coral" />
+                    <ui:VisualElement class="opt-text">
+                        <ui:Label text="Hard Mode" class="opt-title" />
+                        <ui:Label text="Must use revealed hints" class="opt-desc" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="hard-mode-toggle" class="toggle-switch">
+                        <ui:VisualElement class="toggle-dot" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="card opt-row">
+                    <ui:Label text="&#128214;" class="opt-icon bg-teal" />
+                    <ui:VisualElement class="opt-text">
+                        <ui:Label text="Dictionary Check" class="opt-title" />
+                        <ui:Label text="Answers must be real words" class="opt-desc" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="dictionary-toggle" class="toggle-switch on">
+                        <ui:VisualElement class="toggle-dot" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="card opt-row">
+                    <ui:Label text="&#128266;" class="opt-icon bg-purple" />
+                    <ui:VisualElement class="opt-text">
+                        <ui:Label text="Sound Effects" class="opt-title" />
+                        <ui:Label text="Key taps and win/lose sounds" class="opt-desc" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="sound-toggle" class="toggle-switch on">
+                        <ui:VisualElement class="toggle-dot" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:Button name="delete-progress-button" text="&#128465; Delete All Progress" class="btn coral" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- =========================== GAMEPLAY ============================= -->
+        <ui:VisualElement name="gameplay-panel" class="panel bg-dark hidden">
+            <ui:VisualElement class="game-header">
+                <ui:Button name="back-button" text="&#8249; Back" class="btn-back" />
+                <ui:Label text="Word Quiz" class="heading game-title" />
+                <ui:Button name="help-button" text="?" class="chip-round" />
+            </ui:VisualElement>
+
+            <ui:VisualElement name="grid-container" class="grid-wrap">
+                <!-- Rows/tiles are built at runtime by WordGameUIController.BuildGrid() -->
+            </ui:VisualElement>
+
+            <ui:VisualElement name="keyboard-container" class="keyboard">
+                <!-- Key rows are built at runtime by WordGameUIController.BuildKeyboard() -->
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- ============================ WIN SCREEN =========================== -->
+        <ui:VisualElement name="win-panel" class="panel bg-gradient hidden">
+            <ui:VisualElement class="confetti c-yellow" style="width:8px;height:8px;top:20px;left:30px;" />
+            <ui:VisualElement class="confetti c-teal" style="width:6px;height:6px;top:40px;right:40px;" />
+            <ui:VisualElement class="confetti c-white" style="width:6px;height:6px;top:15px;right:90px;" />
+
+            <ui:Label text="Word Quiz" class="heading end-header" />
+            <ui:Label name="win-title" text="&#127881; You Win!" class="end-title win heading" />
+            <ui:Label name="win-word-chip" text="Solved in 4 guesses" class="word-chip" />
+
+            <ui:VisualElement class="stats-row">
+                <ui:VisualElement class="stat-card">
+                    <ui:Label name="win-stat-played" text="6" class="stat-number" />
+                    <ui:Label text="Played" class="stat-label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-card">
+                    <ui:Label name="win-stat-winrate" text="33%" class="stat-number" />
+                    <ui:Label text="Win Rate" class="stat-label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-card">
+                    <ui:Label name="win-stat-streak" text="1" class="stat-number" />
+                    <ui:Label text="Streak" class="stat-label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-card">
+                    <ui:Label name="win-stat-maxstreak" text="1" class="stat-number" />
+                    <ui:Label text="Max" class="stat-label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="card dist-card">
+                <ui:VisualElement class="dist-row"><ui:Label text="1" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="win-dist-bar-1" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="2" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="win-dist-bar-2" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="3" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="win-dist-bar-3" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="4" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="win-dist-bar-4" class="dist-bar-fill" style="width:100%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="5" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="win-dist-bar-5" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="6" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="win-dist-bar-6" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="end-actions-row">
+                <ui:Button name="win-play-again-button" text="Play Again" class="btn primary" />
+                <ui:Button name="win-main-menu-button" text="Main Menu" class="btn outline" />
+                <ui:Button name="win-hide-button" text="Hide" class="btn outline" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- ============================ LOSE SCREEN ========================== -->
+        <ui:VisualElement name="lose-panel" class="panel bg-dark hidden">
+            <ui:Label text="Word Quiz" class="heading end-header text-white" />
+            <ui:Label text="&#128517; So Close!" class="end-title lose heading" />
+            <ui:Label name="lose-word-chip" text="The word was ION" class="word-chip lose" />
+
+            <ui:VisualElement class="stats-row">
+                <ui:VisualElement class="stat-card">
+                    <ui:Label name="lose-stat-played" text="7" class="stat-number" />
+                    <ui:Label text="Played" class="stat-label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-card">
+                    <ui:Label name="lose-stat-winrate" text="29%" class="stat-number" />
+                    <ui:Label text="Win Rate" class="stat-label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-card">
+                    <ui:Label name="lose-stat-streak" text="0" class="stat-number" />
+                    <ui:Label text="Streak" class="stat-label" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-card">
+                    <ui:Label name="lose-stat-maxstreak" text="1" class="stat-number" />
+                    <ui:Label text="Max" class="stat-label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="card dist-card">
+                <ui:VisualElement class="dist-row"><ui:Label text="1" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="lose-dist-bar-1" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="2" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="lose-dist-bar-2" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="3" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="lose-dist-bar-3" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="4" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="lose-dist-bar-4" class="dist-bar-fill" style="width:100%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="5" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="lose-dist-bar-5" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+                <ui:VisualElement class="dist-row"><ui:Label text="6" class="dist-number" /><ui:VisualElement class="dist-bar-bg"><ui:VisualElement name="lose-dist-bar-6" class="dist-bar-fill" style="width:4%;" /></ui:VisualElement></ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="end-actions-row">
+                <ui:Button name="lose-try-again-button" text="Try Again" class="btn coral" />
+                <ui:Button name="lose-main-menu-button" text="Main Menu" class="btn outline" />
+                <ui:Button name="lose-hide-button" text="Hide" class="btn outline" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- ============================== TOAST ============================== -->
+        <ui:Label name="toast-label" text="" class="toast hidden" />
+
+    </ui:VisualElement>
+</ui:UXML>

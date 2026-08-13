@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ui:VisualElement name="CategoryCompletePanel" class="screen screen--hidden modal-backdrop">
+        <ui:VisualElement class="modal-card">
+            <ui:VisualElement class="modal-accent modal-accent--success" />
+            <ui:Label text="🎉  GOOD JOB!" class="modal-title modal-title--success" />
+            <ui:Label name="CategoryCompleteScoreText" text="0/10" class="modal-score" />
+            <ui:VisualElement class="modal-buttons">
+                <ui:Button name="NextCategoryButton" text="SELECT NEW CATEGORY" class="btn btn--primary btn--tight" />
+                <ui:Button name="ReplayCategoryButton" text="↻  REPLAY CATEGORY" class="btn" />
+                <ui:Button name="CategoryCompleteMenuButton" text="BACK TO MENU" class="btn btn--last" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
