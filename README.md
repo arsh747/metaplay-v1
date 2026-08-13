@@ -63,14 +63,4 @@ Design and develop a multi-game Android platform that runs fully offline and ad-
 3. Add this folder as a project
 4. Open the main menu scene and press Play
 
-## Team
-- Syed Kazim Raza — F2022266382
-- M. Arshmaan Attique — F2022266376
-- Hamza Javed — F2022266367
 
-**Project Advisor:** Miss Habiba Habib
-**Institution:** BS Computer Science, University of Management and Technology, C-II Johar Town, Lahore, Pakistan
-**Session:** Fall 2025 – Spring 2026
-
-## Status
-Completed
