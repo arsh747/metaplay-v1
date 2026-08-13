@@ -1,35 +1,35 @@
-# MetaPlay: A Multi Game Offline Platform
+# MetaPlay
 
-A Final Year Project (BS Computer Science, University of Management and Technology, Lahore — Fall 2025 to Spring 2026) that packages 7 distinct mini-games into a single offline, ads-free Android app.
+A Unity-based multi-game offline platform for Android that packages 7 distinct mini-games into a single app under one unified launcher.
 
-## Objective
-Design and develop a multi-game Android platform that runs fully offline and ad-free, incorporating Artificial Intelligence in select games to increase realism and interactivity, all under one unified launcher/main menu.
+## Description
+MetaPlay lets players browse and switch between multiple 2D and 3D games from a single main menu, all running fully offline with no ads or in-app purchases. Several games integrate Artificial Intelligence to increase realism and interactivity.
 
 ## Built With
 - Unity (Game Engine)
 - Blender
-- C# (Programming/Scripting)
+- C#
 - Sketchfab
 - Mixamo
 - Stockfish (Chess engine, integrated locally)
 
 ## Games Included
-| Game | Genre | AI? |
+| Game | Genre | AI |
 |---|---|---|
-| Chess AI | Strategy | Yes — Stockfish + custom bot, multiple AI modes |
-| Racing Rivals | Racing | Yes — adaptive opponent behavior |
-| Survival.io | Survival | No — scripted spawns |
-| Pesticide Escape | Action/FPS | Yes — AI navigation for insect enemies |
-| Trivia Quest | Educational/Quiz | No |
-| Word Quiz | Puzzle | No |
-| Land of the Dead | Action/Survival | Yes — pathfinding for zombie enemies |
+| Chess AI | Strategy | Stockfish + custom bot, multiple AI modes |
+| Racing Rivals | Racing | Adaptive opponent behavior |
+| Survival.io | Survival | Scripted spawns (no AI) |
+| Pesticide Escape | Action / FPS | AI navigation for insect enemies |
+| Trivia Quest | Educational / Quiz | None |
+| Word Quiz | Puzzle | None |
+| Land of the Dead | Action / Survival | Pathfinding for zombie enemies |
 
-## Common Platform Features
-- Centralized main menu for browsing/selecting games
+## Platform Features
+- Centralized main menu for browsing and selecting games
 - Fully offline gameplay — no internet or server dependency
 - Touch-optimized controls for Android
 - Local progress tracking via PlayerPrefs
-- No ads, no in-app purchases (academic version)
+- Ad-free, no in-app purchases
 
 ## AI Techniques Used
 - **Pathfinding** — enemy movement (Land of the Dead, Pesticide Escape)
@@ -42,12 +42,7 @@ Design and develop a multi-game Android platform that runs fully offline and ad-
 - Touchscreen input (taps, swipes, drags)
 - No internet connection required
 
-## Project Results
-- **Completion:** 100% (17/17 requirements fulfilled)
-- **Accuracy:** 94%
-- **Correctness:** 98%
-
-## Future Work
+## Roadmap
 - AI difficulty selection (Easy/Medium/Hard)
 - Additional game modules
 - Local multiplayer / score sharing via Bluetooth/Wi-Fi Direct
@@ -63,4 +58,5 @@ Design and develop a multi-game Android platform that runs fully offline and ad-
 3. Add this folder as a project
 4. Open the main menu scene and press Play
 
-
+## Status
+Completed — actively maintained and improved.
